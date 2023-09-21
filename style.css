@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex; /* para identificar que a tag vai ser o elemento container do flexbox */
+  flex-direction: row; /*direção do eixo principal */
+  justify-content: center; /* para alinhar os elementos no eixo principal */
+  align-items: center; /* para alinhar os elementos no eixo perpendicular */
+  flex-wrap: wrap; /* para decidir se os elementos irão para a linha de baixo quando chegarem no final ou se ficarão espremidos */ 
+  align-content: center; /* para quanto existe o flex-wrap e queremos alinhar as linhas no nosso eixo perpendicular */
+  row-gap: 10px;
+  column-gap: 30px;
+
+  /* indiferente: */
+  background-color: #f9eac3;
+  padding: 16px;
+  height: 500px;
+}
+
+.bloco-1 {
+  /* indiferente: */
+  background-color: #c6d8f0;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}
+
+.bloco-2 {
+  /* indiferente: */
+  background-color: #d8bfd8;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}
+
+.bloco-3 {
+  /* indiferente: */
+  background-color: #ff9999;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}
